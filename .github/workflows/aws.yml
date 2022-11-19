@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: us-west-2                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: smartcity-application           # set this to your Amazon ECR repository name
-  ECS_SERVICE: smart-city-application-22                 # set this to your Amazon ECS service name
+  ECS_SERVICE: smart-city-application-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: smart-city-application-22                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: devops/task-definition.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
